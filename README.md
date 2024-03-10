@@ -12,7 +12,7 @@ Page 3: Services
 ![image](https://github.com/AKJaiswal24/portfolio-one/assets/142773462/7bb6ef99-604a-4587-968e-a0229013afc2)
 
 Page 4: Portfolio 
-![image](https://github.com/AKJaiswal24/portfolio-one/assets/142773462/7e38c6e2-ae17-4155-aa0c-d701a99eefb5)
+![image](https://github.com/AKJaiswal24/portfolio-one/assets/142773462/9b00d2c7-2223-499c-82d7-f7f3b47ffdee)
 
 Page 5: Contact me 
 ![image](https://github.com/AKJaiswal24/portfolio-one/assets/142773462/5261a2e8-9af0-4e9e-8b49-18a2a6712a55)
