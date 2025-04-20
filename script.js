@@ -44,7 +44,7 @@ ScrollReveal({
  ScrollReveal().reveal('.about_content p,.home, .headeng , .social_media a', { origin:'top'});
  ScrollReveal().reveal('img, .sercives_container, .portfolio-box , .contact form ', { origin:'bottom'});
  ScrollReveal().reveal('.home_content h1, .pi00 , .social_media', { origin:'left'});
- ScrollReveal().reveal(' .about-content ', { origin:'right'});
+ ScrollReveal().reveal(' .about-content ,.progress_con ', { origin:'right'});
 
 
  const typed = new Typed('.multiple-text' , {

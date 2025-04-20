@@ -288,6 +288,115 @@ span{
     font-size: 2rem;
     color: var(--second-bg);
 }
+
+
+.skill_container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: var(--second-bg);
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+}
+
+.skill_container .skill-box{
+    width: 100%;
+    margin:25px 0;
+}
+
+.skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+
+}
+.skill-box .skill-bar{
+    width: 100%;
+    height: 8px;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 6px;
+    background: var(--main-color);
+    animation: progress .4s ease-in-out forwards;
+    opacity: 0;
+}
+.skill-per.java{
+    width: 50%;
+    animation-delay: .1s;
+}
+.skill-per.python{
+    width: 40%;
+    animation-delay: .2s;
+}
+.skill-per.php{
+    width: 65%;
+    animation-delay: .3s;
+}
+.skill-per.html{
+    width: 80%;
+    animation-delay: .4s;
+}
+.skill-per.css{
+    width: 50%;
+    animation-delay: .5s;
+}
+.skill-per.js{
+    width: 20%;
+    animation-delay: .6s;
+}
+@keyframes progress{
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.progress_con{
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    background: var(--text-color);
+    top: -20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--bg-color);
+    padding: 2px 6px;
+    border-radius: 3px;
+    z-index: 1;
+}
+.tooltip ::before{
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background: var(--main-color);
+    transform: translateY(-50%) rotate(45deg);
+
+}
+
+
+.contact{
+    background: var(--second-bg);
+}
 .contact h2{
     margin-bottom: 3rem;
 }
@@ -307,7 +416,7 @@ span{
     padding: 1.5rem;
     font-size: 1.6rem;
     color: var(--text-color);
-    background: var(--second-bg);
+    background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem .1rem;
 }
@@ -322,7 +431,7 @@ span{
     cursor: pointer;
 }
 footer{
-    background: var(--second-bg);
+    background: var(--bg-color);
     margin-bottom: 1rem;
 }
 footer strong{
@@ -378,6 +487,9 @@ footer p{
 .maap iframe{
     width: 600px;
     margin-bottom: 10px;
+}
+.text{
+    background: var(--second-bg);
 }
 
 @media(max-width:1440px){
