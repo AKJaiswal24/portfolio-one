@@ -33,7 +33,7 @@ section{
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     padding: 2rem 6% ;
     background: var(--bg-color);
     display: flex;
